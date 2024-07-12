@@ -143,7 +143,7 @@ def answer_query(data, query, top_n=5):
     return top_results, answer
 
 if __name__ == "__main__":
-    pdf_dir = "PATH TO THE CREATED FOLDER IN THE SAME LEVEL AS THE SCRIPT"
+    pdf_dir = "PATH TO THE FOLDER containing pdfs"
     
     while True:
         query = input("Enter your query (or type 'exit' to quit): ").strip()
