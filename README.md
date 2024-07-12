@@ -8,6 +8,7 @@ This project implements a smart assistant to query PDF documents and provide det
 - Pip package manager
 - [Ollama](https://ollama.com) installed on your system
 - Llama3 model, which can be downloaded by running `ollama run llama3` after installing Ollama
+- PDFs kept in a single folder.
 
 ## Installation
 
@@ -51,7 +52,7 @@ python bot.py
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
 
 ## Contributing
 
